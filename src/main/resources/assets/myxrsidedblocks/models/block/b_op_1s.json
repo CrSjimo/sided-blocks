@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided1s",
+  "textures": {
+    "main": "minecraft:block/bricks",
+    "side": "minecraft:block/oak_planks"
+  }
+}

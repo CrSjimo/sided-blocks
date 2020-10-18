@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided2e",
+  "textures": {
+    "main": "minecraft:block/stone_bricks",
+    "side": "minecraft:block/lame_concrete"
+  }
+}

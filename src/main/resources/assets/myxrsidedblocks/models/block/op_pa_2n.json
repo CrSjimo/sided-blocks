@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided2n",
+  "textures": {
+    "main": "minecraft:block/oak_planks",
+    "side": "minecraft:block/polished_andesite"
+  }
+}
