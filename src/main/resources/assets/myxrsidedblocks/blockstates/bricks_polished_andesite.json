@@ -1,34 +1,34 @@
 {
   "variants": {
     "facing=north,twoside=false": {
-      "model": "myxrsidedblocks:block/b_pa_1n"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_1n"
     },
     "facing=east,twoside=false": {
-      "model": "myxrsidedblocks:block/b_pa_1e"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_1e"
     },
     "facing=south,twoside=false": {
-      "model": "myxrsidedblocks:block/b_pa_1s"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_1s"
     },
     "facing=west,twoside=false": {
-      "model": "myxrsidedblocks:block/b_pa_1w"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_1w"
     },
     "facing=up,twoside=false": {
-      "model": "myxrsidedblocks:block/b_pa_1u"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_1u"
     },
     "facing=down,twoside=false": {
-      "model": "myxrsidedblocks:block/b_pa_1d"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_1d"
     },
     "facing=north,twoside=true": {
-      "model": "myxrsidedblocks:block/b_pa_2n"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_2n"
     },
     "facing=east,twoside=true": {
-      "model": "myxrsidedblocks:block/b_pa_2e"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_2e"
     },
     "facing=south,twoside=true": {
-      "model": "myxrsidedblocks:block/b_pa_2s"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_2s"
     },
     "facing=west,twoside=true": {
-      "model": "myxrsidedblocks:block/b_pa_2w"
+      "model": "myxrsidedblocks:block/bricks_polished_andesite_2w"
     }
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided2w",
+  "textures": {
+    "main": "block/stone_bricks",
+    "side": "block/white_concrete"
+  }
+}

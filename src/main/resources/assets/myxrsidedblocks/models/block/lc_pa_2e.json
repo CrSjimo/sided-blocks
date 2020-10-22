@@ -1,7 +1,0 @@
-{
-  "parent": "myxrsidedblocks:block/sided2e",
-  "textures": {
-    "main": "minecraft:block/lame_concrete",
-    "side": "minecraft:block/polished_andesite"
-  }
-}

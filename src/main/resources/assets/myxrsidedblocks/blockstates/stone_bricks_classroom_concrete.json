@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,twoside=false": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_1n"
+    },
+    "facing=east,twoside=false": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_1e"
+    },
+    "facing=south,twoside=false": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_1s"
+    },
+    "facing=west,twoside=false": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_1w"
+    },
+    "facing=up,twoside=false": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_1u"
+    },
+    "facing=down,twoside=false": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_1d"
+    },
+    "facing=north,twoside=true": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_2n"
+    },
+    "facing=east,twoside=true": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_2e"
+    },
+    "facing=south,twoside=true": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_2s"
+    },
+    "facing=west,twoside=true": {
+      "model": "myxrsidedblocks:block/stone_bricks_classroom_concrete_2w"
+    }
+  }
+}
