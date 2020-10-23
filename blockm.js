@@ -1,4 +1,101 @@
-let ops=['1n','1s','1e','1w','1u','1d','2n','2s','2e','2w'];
+class BlockType{
+
+    modelFile(){}
+
+    blockStateFile(){}
+
+    itemModelFile(){}
+
+    classFile(){}
+
+    type = '';
+
+    textures = [];
+
+    ops = [];
+
+    constructor(type,textures,ops){
+        [this.type,this.textures,this.ops] = [type,textures,ops];
+    }
+}
+
+class SidedType extends BlockType{
+    modelFile(block1,block2,op){
+        return(
+    `{
+      "parent": "myxrsidedblocks:block/sided_${op}",
+      "textures": {
+        "main": "${joinResourcePath(getNamespace(block1),'block',getPath(block1))}",
+        "side": "${joinResourcePath(getNamespace(block2),'block',getPath(block2))}"
+      }
+    }`);
+    }
+    
+    blockStateFile(block){
+        return(
+    `{
+      "variants": {
+        "facing=north,twoside=false": {
+          "model": "myxrsidedblocks:block/${block}_1",
+          "uvlock": true
+        },
+        "facing=east,twoside=false": {
+          "model": "myxrsidedblocks:block/${block}_1",
+          "y": 90,
+          "uvlock": true
+        },
+        "facing=south,twoside=false": {
+          "model": "myxrsidedblocks:block/${block}_1",
+          "y": 180,
+          "uvlock": true
+        },
+        "facing=west,twoside=false": {
+          "model": "myxrsidedblocks:block/${block}_1",
+          "y": 270,
+          "uvlock": true
+        },
+        "facing=up,twoside=false": {
+          "model": "myxrsidedblocks:block/${block}_1",
+          "x": 270,
+          "uvlock": true
+        },
+        "facing=down,twoside=false": {
+          "model": "myxrsidedblocks:block/${block}_1",
+          "x": 90,
+          "uvlock": true
+        },
+        "facing=north,twoside=true": {
+          "model": "myxrsidedblocks:block/${block}_2",
+          "uvlock": true
+        },
+        "facing=east,twoside=true": {
+          "model": "myxrsidedblocks:block/${block}_2",
+          "y": 90,
+          "uvlock": true
+        },
+        "facing=south,twoside=true": {
+          "model": "myxrsidedblocks:block/${block}_2",
+          "y": 180,
+          "uvlock": true
+        },
+        "facing=west,twoside=true": {
+          "model": "myxrsidedblocks:block/${block}_2",
+          "y": 270,
+          "uvlock": true
+        }
+      }
+    }`)
+    }
+    
+    itemModelFile(block1,block2){
+        return(
+    `{
+      "parent": "myxrsidedblocks:block/${getPath(block1)}_${getPath(block2)}_1"
+    }`);
+    }
+}
+
+let sidedOps=['1','2'];
 
 function joinResourcePath(ns,...path){
     let str = '';
@@ -19,59 +116,512 @@ function getPath(str){
     return str.split(':').pop();
 }
 
-function sidedModelFile(block1,block2,op){
+function tripleModelFile(side1,side2,top1,top2,op){
     return(
 `{
-  "parent": "myxrsidedblocks:block/sided${op}",
+  "parent": "myxrsidedblocks:block/triple_sided_${op}",
   "textures": {
-    "main": "${joinResourcePath(getNamespace(block1),'block',getPath(block1))}",
-    "side": "${joinResourcePath(getNamespace(block2),'block',getPath(block2))}"
+    "side1": "${joinResourcePath(getNamespace(side1),'block',getPath(side1))}",
+    "side2": "${joinResourcePath(getNamespace(side2),'block',getPath(side2))}",
+    "top1": "${joinResourcePath(getNamespace(top1),'block',getPath(top1))}",
+    "top2": "${joinResourcePath(getNamespace(top2),'block',getPath(top2))}"
   }
 }`);
 }
 
-function sidedBlockStateFile(block){
+function tripleBlockStateFile(block){
     return(
 `{
   "variants": {
-    "facing=north,twoside=false": {
-      "model": "myxrsidedblocks:block/${block}_1n"
+    "facing=north,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n0",
+      "uvlock": true
     },
-    "facing=east,twoside=false": {
-      "model": "myxrsidedblocks:block/${block}_1e"
+    "facing=east,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n0",
+      "uvlock": true,
+      "y": 90
     },
-    "facing=south,twoside=false": {
-      "model": "myxrsidedblocks:block/${block}_1s"
+    "facing=south,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n0",
+      "uvlock": true,
+      "y": 180
     },
-    "facing=west,twoside=false": {
-      "model": "myxrsidedblocks:block/${block}_1w"
+    "facing=west,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n0",
+      "uvlock": true,
+      "y": 270
     },
-    "facing=up,twoside=false": {
-      "model": "myxrsidedblocks:block/${block}_1u"
+    "facing=up,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n0",
+      "uvlock": true,
+      "x": 270
     },
-    "facing=down,twoside=false": {
-      "model": "myxrsidedblocks:block/${block}_1d"
+    "facing=down,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n0",
+      "uvlock": true,
+      "x": 90
     },
-    "facing=north,twoside=true": {
-      "model": "myxrsidedblocks:block/${block}_2n"
+
+    "facing=north,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n90",
+      "uvlock": true
     },
-    "facing=east,twoside=true": {
-      "model": "myxrsidedblocks:block/${block}_2e"
+    "facing=east,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n90",
+      "uvlock": true,
+      "y": 90
     },
-    "facing=south,twoside=true": {
-      "model": "myxrsidedblocks:block/${block}_2s"
+    "facing=south,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n90",
+      "uvlock": true,
+      "y": 180
     },
-    "facing=west,twoside=true": {
-      "model": "myxrsidedblocks:block/${block}_2w"
+    "facing=west,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n90",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n90",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n90",
+      "uvlock": true,
+      "x": 90
+    },
+
+    "facing=north,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n180",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n180",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n180",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n180",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n180",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n180",
+      "uvlock": true,
+      "x": 90
+    },
+
+    "facing=north,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n270",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n270",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n270",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n270",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n270",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/${block}_n270",
+      "uvlock": true,
+      "x": 90
+    },
+
+
+    "facing=north,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e0",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e0",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e0",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e0",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e0",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e0",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e90",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e90",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e90",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e90",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e90",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e90",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e180",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e180",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e180",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e180",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e180",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e180",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e270",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e270",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e270",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e270",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e270",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/${block}_e270",
+      "uvlock": true,
+      "x": 90
+    },
+
+
+    "facing=north,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s0",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s0",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s0",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s0",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s0",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s0",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s90",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s90",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s90",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s90",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s90",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s90",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s180",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s180",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s180",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s180",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s180",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s180",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s270",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s270",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s270",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s270",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s270",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/${block}_s270",
+      "uvlock": true,
+      "x": 90
+    },
+
+    "facing=north,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w0",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w0",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w0",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w0",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w0",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w0",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w90",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w90",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w90",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w90",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w90",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w90",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w180",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w180",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w180",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w180",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w180",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w180",
+      "uvlock": true,
+      "x": 90
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w270",
+      "uvlock": true
+    },
+    "facing=east,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w270",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w270",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w270",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w270",
+      "uvlock": true,
+      "x": 270
+    },
+    "facing=down,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/${block}_w270",
+      "uvlock": true,
+      "x": 90
     }
   }
 }`)
 }
 
-function sidedItemModel(block1,block2){
+function tripleItemModel(side1,side2,top1,top2){
     return(
 `{
-  "parent": "myxrsidedblocks:block/${getPath(block1)}_${getPath(block2)}_1n"
+  "parent": "myxrsidedblocks:block/${getPath(side1)}_${getPath(side2)}_${getPath(top1)}_${getPath(top2)}_n0"
 }`);
 }
 
@@ -86,12 +636,19 @@ public class ${toCamel(block)} extends SidedBlock {
 }`
 }
 
-function sidedBlockItemReg(block){
+function blockItemReg(block){
     return `public static final RegistryObject<BlockItem> ${block.toUpperCase()} = ITEMS.register("${block}", ()->new BlockItem(InitBlocks.${block.toUpperCase()}.get(),new Item.Properties().group(SidedBlocks.ITEM_GROUP)));`
 }
 
-function sidedBlockReg(block){
+function blockReg(block){
     return `public static final RegistryObject<Block> ${block.toUpperCase()} = BLOCKS.register("${block}", ${toCamel(block)}::new);`
+}
+
+function tripleBlockClass(block){
+    return `package de.myxrcrs.sidedblocks.blocks;
+
+public class ${toCamel(block)} extends TripleSidedBlock {
+}`
 }
 
 const fs=require('fs');
@@ -104,7 +661,7 @@ function genSided(block1,block2){
     // let block1 = block1.split('_').map(s=>s[0]).join('');
     // let block2 = block2.split('_').map(s=>s[0]).join('');
     fs.writeFileSync(path.join(RESOURCE_PATH,'blockstates',`${getPath(block1)}_${getPath(block2)}.json`),sidedBlockStateFile(`${getPath(block1)}_${getPath(block2)}`));
-    for(let op of ops){
+    for(let op of sidedOps){
         fs.writeFileSync(path.join(RESOURCE_PATH,'models/block/',`${getPath(block1)}_${getPath(block2)}_${op}.json`),sidedModelFile(block1,block2,op));
     }
     fs.writeFileSync(path.join(RESOURCE_PATH,'models','item',`${getPath(block1)}_${getPath(block2)}.json`),sidedItemModel(block1,block2));
@@ -114,18 +671,23 @@ function genSided(block1,block2){
 let blockList = JSON.parse(fs.readFileSync('blocklist.json'));
 
 function exitSave(code){
-    fs.writeFileSync('blocklist.json',JSON.stringify(blockList));
+    if(code==0)fs.writeFileSync('blocklist.json',JSON.stringify(blockList));
     process.exit(code);
 }
 
 const commands = {
 
-    'add':(type,block1,block2)=>{
-        blockList.blocks.push({type,block1,block2});
+    'add':(type,...args)=>{
+        if(type=='sided'){
+            let [block1,block2] = args;
+            if(!(type&&block1&&block2))exitSave(1);
+            blockList.blocks.push({type,block1,block2});
+        }else if(type=='triple')
         exitSave(0);
     },
 
     'remove':(type,block1,block2)=>{
+        if(!(type&&block1&&block2))exitSave(1);
         blockList.blocks.forEach((v,i,arr)=>{
             if(v.type==type&&v.block1==block1&&v.block2==block2){
                 blockList.removed.push({...v});
@@ -141,10 +703,12 @@ const commands = {
         let blockReg=[];
         blockList.removed.forEach((v)=>{
             try{
-                fs.unlinkSync(path.join(RESOURCE_PATH,'blockstates',`${getPath(v.block1)}_${getPath(v.block2)}.json`));
-                ops.forEach(op=>fs.unlinkSync(path.join(RESOURCE_PATH,'models/block/',`${getPath(v.block1)}_${getPath(v.block2)}_${op}.json`)));
-                fs.unlinkSync(path.join(RESOURCE_PATH,'models','item',`${getPath(v.block1)}_${getPath(v.block2)}.json`));
-                fs.unlinkSync(path.join(PACKAGE_PATH,'blocks',`${toCamel(`${getPath(v.block1)}_${getPath(v.block2)}`)}.java`));
+                if(v.type=='sided'){
+                    fs.unlinkSync(path.join(RESOURCE_PATH,'blockstates',`${getPath(v.block1)}_${getPath(v.block2)}.json`));
+                    sidedOps.forEach(op=>fs.unlinkSync(path.join(RESOURCE_PATH,'models/block/',`${getPath(v.block1)}_${getPath(v.block2)}_${op}.json`)));
+                    fs.unlinkSync(path.join(RESOURCE_PATH,'models','item',`${getPath(v.block1)}_${getPath(v.block2)}.json`));
+                    fs.unlinkSync(path.join(PACKAGE_PATH,'blocks',`${toCamel(`${getPath(v.block1)}_${getPath(v.block2)}`)}.java`));
+                }
             }catch(e){
                 console.warn(e.message);
             }
@@ -152,8 +716,10 @@ const commands = {
         blockList.blocks.forEach((v)=>{
             if(v.type=='sided'){
                 genSided(v.block1,v.block2);
-                blockReg.push(sidedBlockReg(`${getPath(v.block1)}_${getPath(v.block2)}`));
-                itemReg.push(sidedBlockItemReg(`${getPath(v.block1)}_${getPath(v.block2)}`));
+                blockReg.push(blockReg(`${getPath(v.block1)}_${getPath(v.block2)}`));
+                itemReg.push(blockItemReg(`${getPath(v.block1)}_${getPath(v.block2)}`));
+            }else if(v.type=='triple'){
+
             }//TODO
         });
         fs.writeFileSync(path.join(PACKAGE_PATH,'init','InitBlocks.java'),
