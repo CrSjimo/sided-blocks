@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided_1",
+  "textures": {
+    "main": "myxrsidedblocks:block/classroom_concrete",
+    "side": "block/polished_andesite"
+  }
+}

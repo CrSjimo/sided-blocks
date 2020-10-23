@@ -1,0 +1,9 @@
+{
+  "parent": "myxrsidedblocks:block/triple_sided_0",
+  "textures": {
+    "side1": "block/bricks",
+    "side2": "block/oak_planks",
+    "top1": "block/cobblestone",
+    "top2": "block/polished_andesite"
+  }
+}

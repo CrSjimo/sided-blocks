@@ -21,4 +21,5 @@ public class InitBlocks {
     public static final RegistryObject<Block> SANDSTONE_TOP_WHITE_CONCRETE = BLOCKS.register("sandstone_top_white_concrete", SandstoneTopWhiteConcrete::new);
     public static final RegistryObject<Block> STONE_BRICKS_CLASSROOM_CONCRETE = BLOCKS.register("stone_bricks_classroom_concrete", StoneBricksClassroomConcrete::new);
     public static final RegistryObject<Block> CLASSROOM_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("classroom_concrete_polished_andesite", ClassroomConcretePolishedAndesite::new);
+    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block", TripleSidedBlock::new);
 }

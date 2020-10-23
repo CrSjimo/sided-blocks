@@ -1,34 +1,52 @@
 {
   "variants": {
     "facing=north,twoside=false": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1n"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1",
+      "uvlock": true
     },
     "facing=east,twoside=false": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1e"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1",
+      "y": 90,
+      "uvlock": true
     },
     "facing=south,twoside=false": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1s"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1",
+      "y": 180,
+      "uvlock": true
     },
     "facing=west,twoside=false": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1w"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1",
+      "y": 270,
+      "uvlock": true
     },
     "facing=up,twoside=false": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1u"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1",
+      "x": 270,
+      "uvlock": true
     },
     "facing=down,twoside=false": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1d"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_1",
+      "x": 90,
+      "uvlock": true
     },
     "facing=north,twoside=true": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2n"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2",
+      "uvlock": true
     },
     "facing=east,twoside=true": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2e"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2",
+      "y": 90,
+      "uvlock": true
     },
     "facing=south,twoside=true": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2s"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2",
+      "y": 180,
+      "uvlock": true
     },
     "facing=west,twoside=true": {
-      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2w"
+      "model": "myxrsidedblocks:block/light_gray_concrete_white_concrete_2",
+      "y": 270,
+      "uvlock": true
     }
   }
 }

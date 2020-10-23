@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided_1",
+  "textures": {
+    "main": "block/stone_bricks",
+    "side": "myxrsidedblocks:block/classroom_concrete"
+  }
+}

@@ -1,26 +1,24 @@
 class BlockType{
 
-    modelFile(){}
+    static modelFile(){}
 
-    blockStateFile(){}
+    static blockStateFile(){}
 
-    itemModelFile(){}
+    static itemModelFile(){}
 
-    classFile(){}
+    static classFile(){}
 
-    type = '';
+    static type = '';
 
-    textures = [];
+    static texturesNum = 0;
 
-    ops = [];
+    static ops = [];
 
-    constructor(type,textures,ops){
-        [this.type,this.textures,this.ops] = [type,textures,ops];
-    }
 }
 
 class SidedType extends BlockType{
-    modelFile(block1,block2,op){
+
+    static modelFile(block1,block2,op){
         return(
     `{
       "parent": "myxrsidedblocks:block/sided_${op}",
@@ -31,7 +29,7 @@ class SidedType extends BlockType{
     }`);
     }
     
-    blockStateFile(block){
+    static blockStateFile(block){
         return(
     `{
       "variants": {
@@ -87,15 +85,26 @@ class SidedType extends BlockType{
     }`)
     }
     
-    itemModelFile(block1,block2){
+    static itemModelFile(block1,block2){
         return(
     `{
       "parent": "myxrsidedblocks:block/${getPath(block1)}_${getPath(block2)}_1"
     }`);
     }
-}
 
-let sidedOps=['1','2'];
+    static classFile(block){
+        return `package de.myxrcrs.sidedblocks.blocks;
+    
+    public class ${toCamel(block)} extends SidedBlock {
+    }`
+    }
+
+    static type = 'sided';
+
+    static texturesNum = 2;
+
+    static ops = ['1','2'];
+}
 
 function joinResourcePath(ns,...path){
     let str = '';
@@ -629,13 +638,6 @@ function toCamel(block){
     return block.split('_').map(word=>word[0].toUpperCase()+word.slice(1)).join('');
 }
 
-function sidedBlockClass(block){
-    return `package de.myxrcrs.sidedblocks.blocks;
-
-public class ${toCamel(block)} extends SidedBlock {
-}`
-}
-
 function blockItemReg(block){
     return `public static final RegistryObject<BlockItem> ${block.toUpperCase()} = ITEMS.register("${block}", ()->new BlockItem(InitBlocks.${block.toUpperCase()}.get(),new Item.Properties().group(SidedBlocks.ITEM_GROUP)));`
 }
@@ -657,15 +659,17 @@ const path=require('path');
 const PACKAGE_PATH = path.join('src','main','java','de','myxrcrs','sidedblocks');
 const RESOURCE_PATH = path.join('src','main','resources','assets','myxrsidedblocks');
 
-function genSided(block1,block2){
-    // let block1 = block1.split('_').map(s=>s[0]).join('');
-    // let block2 = block2.split('_').map(s=>s[0]).join('');
-    fs.writeFileSync(path.join(RESOURCE_PATH,'blockstates',`${getPath(block1)}_${getPath(block2)}.json`),sidedBlockStateFile(`${getPath(block1)}_${getPath(block2)}`));
+function combineName(...args){
+    return args.map(x=>getPath(x)).join('_');
+}
+
+function generate(blockType,...args){
+    fs.writeFileSync(path.join(RESOURCE_PATH,'blockstates',`${getPath(block1)}_${getPath(block2)}.json`),SidedType.blockStateFile(`${getPath(block1)}_${getPath(block2)}`));
     for(let op of sidedOps){
-        fs.writeFileSync(path.join(RESOURCE_PATH,'models/block/',`${getPath(block1)}_${getPath(block2)}_${op}.json`),sidedModelFile(block1,block2,op));
+        fs.writeFileSync(path.join(RESOURCE_PATH,'models/block/',`${getPath(block1)}_${getPath(block2)}_${op}.json`),SidedType.modelFile(block1,block2,op));
     }
-    fs.writeFileSync(path.join(RESOURCE_PATH,'models','item',`${getPath(block1)}_${getPath(block2)}.json`),sidedItemModel(block1,block2));
-    fs.writeFileSync(path.join(PACKAGE_PATH,'blocks',`${toCamel(`${getPath(block1)}_${getPath(block2)}`)}.java`),sidedBlockClass(`${getPath(block1)}_${getPath(block2)}`));
+    fs.writeFileSync(path.join(RESOURCE_PATH,'models','item',`${getPath(block1)}_${getPath(block2)}.json`),SidedType.itemModelFile(block1,block2));
+    fs.writeFileSync(path.join(PACKAGE_PATH,'blocks',`${toCamel(`${getPath(block1)}_${getPath(block2)}`)}.java`),SidedType.classFile(`${getPath(block1)}_${getPath(block2)}`));
 }
 
 let blockList = JSON.parse(fs.readFileSync('blocklist.json'));
@@ -705,7 +709,7 @@ const commands = {
             try{
                 if(v.type=='sided'){
                     fs.unlinkSync(path.join(RESOURCE_PATH,'blockstates',`${getPath(v.block1)}_${getPath(v.block2)}.json`));
-                    sidedOps.forEach(op=>fs.unlinkSync(path.join(RESOURCE_PATH,'models/block/',`${getPath(v.block1)}_${getPath(v.block2)}_${op}.json`)));
+                    SidedType.ops.forEach(op=>fs.unlinkSync(path.join(RESOURCE_PATH,'models/block/',`${getPath(v.block1)}_${getPath(v.block2)}_${op}.json`)));
                     fs.unlinkSync(path.join(RESOURCE_PATH,'models','item',`${getPath(v.block1)}_${getPath(v.block2)}.json`));
                     fs.unlinkSync(path.join(PACKAGE_PATH,'blocks',`${toCamel(`${getPath(v.block1)}_${getPath(v.block2)}`)}.java`));
                 }
