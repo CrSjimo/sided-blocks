@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided_1",
+  "textures": {
+    "main": "block/stripped_birch_log",
+    "side": "block/bricks"
+  }
+}

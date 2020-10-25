@@ -1,0 +1,541 @@
+{
+  "variants": {
+    "facing=north,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n0",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n90",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n180",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=0": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_n270",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e0",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e90",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e180",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=90": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_e270",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s0",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s90",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s180",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=180": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_s270",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w0",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w90",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w180",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=270": {
+      "model": "myxrsidedblocks:block/stripped_oak_log_bricks_white_concrete_sandstone_top_w270",
+      "uvlock": true,
+      "x": 180
+    }
+  }
+}
