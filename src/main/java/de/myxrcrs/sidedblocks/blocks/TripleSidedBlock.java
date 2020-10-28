@@ -3,6 +3,7 @@ package de.myxrcrs.sidedblocks.blocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.DirectionalBlock;
+import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.EnumProperty;
@@ -27,7 +28,7 @@ public class TripleSidedBlock extends DirectionalBlock {
 
     @Override
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-        builder.add(FACING,UP_ROTATION,SIDE_ROTATION);
+        builder.add(FACING, UP_ROTATION, SIDE_ROTATION);
     }
 
     @Override

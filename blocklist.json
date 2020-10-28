@@ -1,1 +1,96 @@
-{"removed":[],"blocks":[{"type":"sided","block1":"bricks","block2":"oak_planks"},{"type":"sided","block1":"bricks","block2":"polished_andesite"},{"type":"sided","block1":"bricks","block2":"white_concrete"},{"type":"sided","block1":"light_gray_concrete","block2":"white_concrete"},{"type":"sided","block1":"oak_planks","block2":"polished_andesite"},{"type":"sided","block1":"polished_andesite","block2":"white_concrete"},{"type":"sided","block1":"stone_bricks","block2":"white_concrete"},{"type":"sided","block1":"white_concrete","block2":"polished_andesite"},{"type":"sided","block1":"white_concrete","block2":"stripped_dark_oak_log"},{"type":"sided","block1":"sandstone_top","block2":"white_concrete"},{"type":"sided","block1":"stone_bricks","block2":"myxrsidedblocks:classroom_concrete"},{"type":"sided","block1":"myxrsidedblocks:classroom_concrete","block2":"polished_andesite"},{"type":"triple","side1":"myxrsidedblocks:classroom_concrete","side2":"polished_andesite","top1":"polished_andesite","top2":"polished_granite"},{"type":"sided","block1":"stripped_dark_oak_log","block2":"bricks"},{"type":"sided","block1":"stripped_birch_log","block2":"bricks"},{"type":"triple","side1":"stripped_birch_log","side2":"bricks","top1":"white_concrete","top2":"stripped_dark_oak_log"},{"type":"triple","side1":"stripped_oak_log","side2":"bricks","top1":"white_concrete","top2":"sandstone_top"}]}
+{
+  "removed": [],
+  "blocks": [
+    {
+      "type": "sided",
+      "block1": "bricks",
+      "block2": "oak_planks"
+    },
+    {
+      "type": "sided",
+      "block1": "bricks",
+      "block2": "polished_andesite"
+    },
+    {
+      "type": "sided",
+      "block1": "bricks",
+      "block2": "white_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "light_gray_concrete",
+      "block2": "white_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "myxrsidedblocks:classroom_concrete",
+      "block2": "polished_andesite"
+    },
+    {
+      "type": "sided",
+      "block1": "oak_planks",
+      "block2": "polished_andesite"
+    },
+    {
+      "type": "sided",
+      "block1": "polished_andesite",
+      "block2": "white_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "sandstone_top",
+      "block2": "white_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "stone_bricks",
+      "block2": "myxrsidedblocks:classroom_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "stone_bricks",
+      "block2": "white_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "stripped_birch_log",
+      "block2": "bricks"
+    },
+    {
+      "type": "sided",
+      "block1": "stripped_dark_oak_log",
+      "block2": "bricks"
+    },
+    {
+      "type": "sided",
+      "block1": "white_concrete",
+      "block2": "polished_andesite"
+    },
+    {
+      "type": "sided",
+      "block1": "white_concrete",
+      "block2": "stripped_dark_oak_log"
+    },
+    {
+      "type": "triple",
+      "side1": "myxrsidedblocks:classroom_concrete",
+      "side2": "polished_andesite",
+      "top1": "polished_andesite",
+      "top2": "polished_granite"
+    },
+    {
+      "type": "triple",
+      "side1": "stripped_birch_log",
+      "side2": "bricks",
+      "top1": "white_concrete",
+      "top2": "stripped_dark_oak_log"
+    },
+    {
+      "type": "triple",
+      "side1": "stripped_oak_log",
+      "side2": "bricks",
+      "top1": "white_concrete",
+      "top2": "sandstone_top"
+    }
+  ]
+}

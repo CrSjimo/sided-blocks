@@ -25,6 +25,8 @@ public class SidedBlock extends DirectionalBlock {
 
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
+        LOGGER.info(context.getHitVec());
+        LOGGER.info(context.getPos());
         return this.getDefaultState().with(FACING,context.getNearestLookingDirection().getOpposite());
     }
 }

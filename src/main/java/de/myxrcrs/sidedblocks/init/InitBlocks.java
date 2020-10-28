@@ -13,17 +13,18 @@ public class InitBlocks {
     public static final RegistryObject<Block> BRICKS_POLISHED_ANDESITE = BLOCKS.register("bricks_polished_andesite", BricksPolishedAndesite::new);
     public static final RegistryObject<Block> BRICKS_WHITE_CONCRETE = BLOCKS.register("bricks_white_concrete", BricksWhiteConcrete::new);
     public static final RegistryObject<Block> LIGHT_GRAY_CONCRETE_WHITE_CONCRETE = BLOCKS.register("light_gray_concrete_white_concrete", LightGrayConcreteWhiteConcrete::new);
+    public static final RegistryObject<Block> CLASSROOM_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("classroom_concrete_polished_andesite", ClassroomConcretePolishedAndesite::new);
     public static final RegistryObject<Block> OAK_PLANKS_POLISHED_ANDESITE = BLOCKS.register("oak_planks_polished_andesite", OakPlanksPolishedAndesite::new);
     public static final RegistryObject<Block> POLISHED_ANDESITE_WHITE_CONCRETE = BLOCKS.register("polished_andesite_white_concrete", PolishedAndesiteWhiteConcrete::new);
-    public static final RegistryObject<Block> STONE_BRICKS_WHITE_CONCRETE = BLOCKS.register("stone_bricks_white_concrete", StoneBricksWhiteConcrete::new);
-    public static final RegistryObject<Block> WHITE_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("white_concrete_polished_andesite", WhiteConcretePolishedAndesite::new);
-    public static final RegistryObject<Block> WHITE_CONCRETE_STRIPPED_DARK_OAK_LOG = BLOCKS.register("white_concrete_stripped_dark_oak_log", WhiteConcreteStrippedDarkOakLog::new);
     public static final RegistryObject<Block> SANDSTONE_TOP_WHITE_CONCRETE = BLOCKS.register("sandstone_top_white_concrete", SandstoneTopWhiteConcrete::new);
     public static final RegistryObject<Block> STONE_BRICKS_CLASSROOM_CONCRETE = BLOCKS.register("stone_bricks_classroom_concrete", StoneBricksClassroomConcrete::new);
-    public static final RegistryObject<Block> CLASSROOM_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("classroom_concrete_polished_andesite", ClassroomConcretePolishedAndesite::new);
-    public static final RegistryObject<Block> CLASSROOM_CONCRETE_POLISHED_ANDESITE_POLISHED_ANDESITE_POLISHED_GRANITE = BLOCKS.register("classroom_concrete_polished_andesite_polished_andesite_polished_granite", ClassroomConcretePolishedAndesitePolishedAndesitePolishedGranite::new);
-    public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_BRICKS = BLOCKS.register("stripped_dark_oak_log_bricks", StrippedDarkOakLogBricks::new);
+    public static final RegistryObject<Block> STONE_BRICKS_WHITE_CONCRETE = BLOCKS.register("stone_bricks_white_concrete", StoneBricksWhiteConcrete::new);
     public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_BRICKS = BLOCKS.register("stripped_birch_log_bricks", StrippedBirchLogBricks::new);
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_BRICKS = BLOCKS.register("stripped_dark_oak_log_bricks", StrippedDarkOakLogBricks::new);
+    public static final RegistryObject<Block> WHITE_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("white_concrete_polished_andesite", WhiteConcretePolishedAndesite::new);
+    public static final RegistryObject<Block> WHITE_CONCRETE_STRIPPED_DARK_OAK_LOG = BLOCKS.register("white_concrete_stripped_dark_oak_log", WhiteConcreteStrippedDarkOakLog::new);
+    public static final RegistryObject<Block> CLASSROOM_CONCRETE_POLISHED_ANDESITE_POLISHED_ANDESITE_POLISHED_GRANITE = BLOCKS.register("classroom_concrete_polished_andesite_polished_andesite_polished_granite", ClassroomConcretePolishedAndesitePolishedAndesitePolishedGranite::new);
     public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_BRICKS_WHITE_CONCRETE_STRIPPED_DARK_OAK_LOG = BLOCKS.register("stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log", StrippedBirchLogBricksWhiteConcreteStrippedDarkOakLog::new);
     public static final RegistryObject<Block> STRIPPED_OAK_LOG_BRICKS_WHITE_CONCRETE_SANDSTONE_TOP = BLOCKS.register("stripped_oak_log_bricks_white_concrete_sandstone_top", StrippedOakLogBricksWhiteConcreteSandstoneTop::new);
+    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test", WindowEdgeBlock::new);
 }
