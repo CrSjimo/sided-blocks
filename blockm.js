@@ -21,9 +21,9 @@ class BlockType{
 
     static type = '';
 
-    static texturesNum = 0;
-
     static ops = [];
+
+    static argNames = [];
 
 }
 
@@ -112,7 +112,7 @@ public class ${toCamel(block)} extends SidedBlock {
 
     static type = 'sided';
 
-    static texturesNum = 2;
+    static argNames = ['block1','block2'];
 
     static ops = ['1','2'];
 }
@@ -693,10 +693,17 @@ public class ${toCamel(block)} extends TripleSidedBlock {
 
     static type = 'triple';
 
-    static texturesNum = 4;
+    static argNames = ['side1','side2','top1','top2'];
 
     static ops = combineOp(['n','e','s','w'],['0','90','180','270']);
 }
+
+class WindowEdge extends BlockType{}
+
+const BLOCK_TYPES = {
+    sided: SidedType,
+    triple: TripleType,
+};
 
 function joinResourcePath(ns,...path){
     let str = '';
@@ -763,53 +770,61 @@ function remove(blockType,...args){
 let blockList = JSON.parse(fs.readFileSync('blocklist.json'));
 
 function exitSave(code){
-    if(code==0)fs.writeFileSync('blocklist.json',JSON.stringify(blockList));
+    if(code==0)fs.writeFileSync('blocklist.json',JSON.stringify(blockList,undefined,2));
     process.exit(code);
 }
 
-function sgr(str,seq){
-    if(!process.stdout.isTTY)return str;
-    return `\u001b[${seq}m${str}\u001b[0m`;
+function checkArgs(Type,args){
+    if(args.length<Type.argNames.length)return false;
+    return true;
+}
+
+function argsToBlock(Type,args){
+    let block = {type: Type.type};
+    Type.argNames.forEach((p,i)=>{
+        block[p] = args[i];
+    });
+    return block;
+}
+
+function compareArgsWithBlock(Type,args,block){
+    let flag=true;
+    Type.argNames.forEach((p,i)=>{
+        if(block[p]!=args[i])flag=false;
+    });
+    if(!flag)return false;
+    return true;
+}
+
+function blockToArgs(Type,block){
+    let args = [];
+    Type.argNames.forEach((p)=>{
+        args.push(block[p]);
+    });
+    return args;
 }
 
 const commands = {
 
     'add':(type,...args)=>{
-        if(type=='sided'){
-            let [block1,block2] = args;
-            if(!(block1&&block2))exitSave(1);
-            blockList.blocks.push({type,block1,block2});
-        }else if(type=='triple'){
-            let [side1,side2,top1,top2] = args;
-            if(!(side1&&side2&&top1&&top2))exitSave(1);
-            blockList.blocks.push({type,side1,side2,top1,top2});
-        }
+        let Type = BLOCK_TYPES[type];
+        if(!Type)exitSave(1);
+        if(!checkArgs(Type,args))exitSave(1);
+        blockList.blocks.push(argsToBlock(Type,args));
         exitSave(0);
     },
 
     'remove':(type,...args)=>{
-        if(type=='sided'){
-            let [block1,block2] = args;
-            if(!(block1&&block2))exitSave(1);
-            blockList.blocks.forEach((v,i,arr)=>{
-                if(v.type==type&&v.block1==block1&&v.block2==block2){
-                    blockList.removed.push({...v});
-                    arr.splice(i,1);
-                    exitSave(0);
-                }
-            });
-        }else if(type=='triple'){
-            let [side1,side2,top1,top2] = args;
-            if(!(side1&&side2&&top1&&top2))exitSave(1);
-            blockList.blocks.forEach((v,i,arr)=>{
-                if(v.type==type&&v.side1==side1&&v.side2==side2&&v.top1==top1&&v.top2==top2){
-                    blockList.removed.push({...v});
-                    arr.splice(i,1);
-                    exitSave(0);
-                }
-            });
-        }
-        
+        let Type = BLOCK_TYPES[type];
+        if(!Type)exitSave(1);
+        if(!checkArgs(Type,args))exitSave(1);
+        blockList.blocks.forEach((v,i,arr)=>{
+            if(v.type==type && compareArgsWithBlock(Type,args,v)){
+                blockList.removed.push({...v});
+                arr.splice(i,1);
+                exitSave(0);
+            }
+        });
         exitSave(1);
     },
 
@@ -817,22 +832,17 @@ const commands = {
         let itemRegList=[];
         let blockRegList=[];
         blockList.removed.forEach((v)=>{
-            if(v.type=='sided'){
-                remove(SidedType,v.block1,v.block2);
-            }else if(v.type=='triple'){
-                remove(TripleType,v.side1,v.side2,v.top1,v.top2);
-            }
+            let Type = BLOCK_TYPES[v.type];
+            if(!Type)console.warn(`WARN-unrecognized-type '${v.type}'.`);
+            remove(Type,...blockToArgs(Type,v));
         });
         blockList.blocks.forEach((v)=>{
-            if(v.type=='sided'){
-                generate(SidedType,v.block1,v.block2);
-                blockRegList.push(blockReg(combineName(v.block1,v.block2)));
-                itemRegList.push(blockItemReg(combineName(v.block1,v.block2)));
-            }else if(v.type=='triple'){
-                generate(TripleType,v.side1,v.side2,v.top1,v.top2);
-                blockRegList.push(blockReg(combineName(v.side1,v.side2,v.top1,v.top2)));
-                itemRegList.push(blockItemReg(combineName(v.side1,v.side2,v.top1,v.top2)));
-            }//TODO
+            let Type = BLOCK_TYPES[v.type];
+            if(!Type)console.warn(`WARN-unrecognized-type '${v.type}'.`);
+            generate(Type,...blockToArgs(Type,v));
+            blockRegList.push(blockReg(combineName(...blockToArgs(Type,v))));
+            itemRegList.push(blockItemReg(combineName(...blockToArgs(Type,v))));
+            //TODO
         });
         fs.writeFileSync(path.join(PACKAGE_PATH,'init','InitBlocks.java'),
 `package de.myxrcrs.sidedblocks.init;
@@ -873,6 +883,26 @@ public class InitItems {
                 console.table(v);
             }
         });
+    },
+    'sort':()=>{
+        blockList.blocks.sort((a,b)=>{
+            let _f=(x,y)=>x>y?1:x==y?0:-1;
+            if(a.type==b.type){
+                let Type=BLOCK_TYPES[a.type];
+                if(!Type){
+                    console.warn(`WARN-unrecognized-type '${v.type}'.`);
+                    return 0;
+                }
+                for(let p of Type.argNames){
+                    if(a[p]==b[p])continue;
+                    return _f(a[p],b[p]);
+                }
+                return 0;
+            }else{
+                return _f(Object.keys(BLOCK_TYPES).indexOf(a.type),Object.keys(BLOCK_TYPES).indexOf(b.type));
+            }
+        });
+        exitSave(0);
     }
 }
 
