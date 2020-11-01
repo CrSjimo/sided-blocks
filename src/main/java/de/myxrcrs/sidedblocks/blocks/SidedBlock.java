@@ -14,7 +14,7 @@ public class SidedBlock extends DirectionalBlock {
     public static final BooleanProperty TWO_SIDE = BooleanProperty.create("twoside");
 
     public SidedBlock(){
-        super(Block.Properties.create(Material.CLAY));
+        super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f,6.0f));
         this.setDefaultState(this.getDefaultState().with(FACING, Direction.NORTH).with(TWO_SIDE, false));
     }
 
@@ -25,8 +25,6 @@ public class SidedBlock extends DirectionalBlock {
 
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
-        LOGGER.info(context.getHitVec());
-        LOGGER.info(context.getPos());
         return this.getDefaultState().with(FACING,context.getNearestLookingDirection().getOpposite());
     }
 }

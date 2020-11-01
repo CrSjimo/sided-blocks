@@ -60,7 +60,7 @@
             },
             "down": {
                 "texture": "#side",
-                "cullface": "north"
+                "cullface": "down"
             },
             "south": {
                 "texture": "#side",

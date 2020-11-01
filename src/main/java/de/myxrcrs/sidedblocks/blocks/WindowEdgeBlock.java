@@ -7,6 +7,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.state.EnumProperty;
+import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
@@ -15,20 +16,23 @@ import net.minecraft.util.math.Vec3d;
 public class WindowEdgeBlock extends HorizontalBlock {
 
     public static final EnumProperty<Side> SIDE = EnumProperty.create("side", Side.class);
-    public static final BooleanProperty CORNER = BooleanProperty.create("corner");
+    public static final BooleanProperty V_CORNER = BooleanProperty.create("vcorner");
+    public static final IntegerProperty H_CORNER = IntegerProperty.create("hcorner",1,3);
 
     public WindowEdgeBlock(){
-        super(Block.Properties.create(Material.CLAY));
+        super(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f,6.0f));
         this.setDefaultState(
             this.getDefaultState()
                 .with(HORIZONTAL_FACING, Direction.NORTH)
                 .with(SIDE, Side.TOP)
-                .with(CORNER, false));
+                .with(V_CORNER, false)
+                .with(H_CORNER, 2)
+        );
     }
 
     @Override
     protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-        builder.add(HORIZONTAL_FACING, SIDE, CORNER);
+        builder.add(HORIZONTAL_FACING, SIDE, V_CORNER, H_CORNER);
     }
 
     enum Rel {
@@ -89,9 +93,9 @@ public class WindowEdgeBlock extends HorizontalBlock {
         }
 
         public static Rel getHitRel(double x, double y){
-            if(x-y>=0 && x+y>=1)return LEFT;
+            if(x-y>=0 && x+y>=1)return RIGHT;
             if(x-y>=0 && x+y<1)return TOP;
-            if(x-y<0 && x+y<1)return RIGHT;
+            if(x-y<0 && x+y<1)return LEFT;
             else return BOTTOM;
         }
     }

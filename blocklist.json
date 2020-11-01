@@ -91,6 +91,12 @@
       "side2": "bricks",
       "top1": "white_concrete",
       "top2": "sandstone_top"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "polished_andesite",
+      "top": "polished_andesite"
     }
   ]
 }

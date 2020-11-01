@@ -1,0 +1,1615 @@
+{
+  "variants": {
+    "facing=north,up_rotation=0,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=90,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=180,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=270,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=0,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=90,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=180,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=90,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=180,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180",
+      "uvlock": true,
+      "x": 180
+    },
+  
+    "facing=north,up_rotation=270,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=270,hcorner=2": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=0,hcorner=3": {
+        "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0c",
+        "uvlock": true,
+        "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0c",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=90,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90c",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=180,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180c",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=270,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=0,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270c",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=90,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=180,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=270,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=90,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270c",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=90,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=180,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=270,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=180,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270c",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=90,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=180,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180c",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=270,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270c",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270c",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270c",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=270,hcorner=3": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270c",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n0i",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=90,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n90i",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=180,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n180i",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=270,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=0,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_n270i",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e0i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=90,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e90i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=180,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e180i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=270,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=90,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_e270i",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s0i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=90,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s90i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=180,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s180i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=270,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=180,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_s270i",
+      "uvlock": true,
+      "x": 180
+    },
+    "facing=north,up_rotation=0,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=0,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=0,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=0,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=0,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=0,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w0i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=90,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=90,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=90,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=90,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=90,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=90,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w90i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=180,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=180,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=180,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=180,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=180,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=180,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w180i",
+      "uvlock": true,
+      "x": 180
+    },
+
+    "facing=north,up_rotation=270,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270i",
+      "uvlock": true,
+      "x": 90
+    },
+    "facing=east,up_rotation=270,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "facing=south,up_rotation=270,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "facing=west,up_rotation=270,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270i",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "facing=up,up_rotation=270,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270i",
+      "uvlock": true,
+      "x": 0
+    },
+    "facing=down,up_rotation=270,side_rotation=270,hcorner=1": {
+      "model": "myxrsidedblocks:block/triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log_w270i",
+      "uvlock": true,
+      "x": 180
+    }
+  }
+}
