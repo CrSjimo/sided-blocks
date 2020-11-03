@@ -97,6 +97,12 @@
       "cover": "bricks",
       "side": "polished_andesite",
       "top": "polished_andesite"
+    },
+    {
+      "type": "slab",
+      "top": "polished_andesite",
+      "side": "white_concrete",
+      "bottom": "white_concrete"
     }
   ]
 }

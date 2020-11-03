@@ -177,22 +177,22 @@
     },
 
 
-    "facing=north,side=top,hcorner=2,vcorner=true": {
+    "facing=north,side=top,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_topv",
       "uvlock": true,
       "y": 270
     },
-    "facing=east,side=top,hcorner=2,vcorner=true": {
+    "facing=east,side=top,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_topv",
       "y": 0,
       "uvlock": true
     },
-    "facing=south,side=top,hcorner=2,vcorner=true": {
+    "facing=south,side=top,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_topv",
       "y": 90,
       "uvlock": true
     },
-    "facing=west,side=top,hcorner=2,vcorner=true": {
+    "facing=west,side=top,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_topv",
       "y": 180,
       "uvlock": true
@@ -221,22 +221,22 @@
     },
 
 
-    "facing=north,side=bottom,hcorner=2,vcorner=true": {
+    "facing=north,side=bottom,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_bottomv",
       "uvlock": true,
       "y": 270
     },
-    "facing=east,side=bottom,hcorner=2,vcorner=true": {
+    "facing=east,side=bottom,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_bottomv",
       "y": 0,
       "uvlock": true
     },
-    "facing=south,side=bottom,hcorner=2,vcorner=true": {
+    "facing=south,side=bottom,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_bottomv",
       "y": 90,
       "uvlock": true
     },
-    "facing=west,side=bottom,hcorner=2,vcorner=true": {
+    "facing=west,side=bottom,vcorner=true": {
       "model": "myxrsidedblocks:block/winedge_bricks_polished_andesite_polished_andesite_bottomv",
       "y": 180,
       "uvlock": true

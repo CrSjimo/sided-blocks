@@ -2081,13 +2081,14 @@ public class ${toCamel(this.type+'_'+block)} extends WindowEdgeBlock {
 class SlabType extends BlockType{
     
     static modelFile(top,side,bottom,op){
+        if(op=='top')op='_top';
         return (
 `{
     "parent": "block/slab${op}",
     "textures": {
-        "bottom": "${joinResourcePath(getNamespace(top),'block',getPath(top))}",
-        "top": "${joinResourcePath(getNamespace(side),'block',getPath(side))}",
-        "side": "${joinResourcePath(getNamespace(bottom),'block',getPath(bottom))}"
+        "top": "${joinResourcePath(getNamespace(top),'block',getPath(top))}",
+        "side": "${joinResourcePath(getNamespace(side),'block',getPath(side))}",
+        "bottom": "${joinResourcePath(getNamespace(bottom),'block',getPath(bottom))}"
     }
 }`)
     }
@@ -2095,16 +2096,49 @@ class SlabType extends BlockType{
     static itemModelFile(top,side,bottom){
         return(
 `{
-  "parent": "myxrsidedblocks:block/${this.type}_${combineName(top,side,bottom)}"
+  "parent": "myxrsidedblocks:block/${this.type}_${combineName(top,side,bottom)}_"
 }`);
     }
+
+    static classFile(block){
+        return `package de.myxrcrs.sidedblocks.blocks;
+
+public class ${toCamel(this.type+'_'+block)} extends SidedSlab {
+}`
+    }
+
+    static blockStateFile(block){
+        return (
+`{
+    "multipart": [{
+        "when": {"type": "bottom"},
+        "apply": {"model": "myxrsidedblocks:block/${this.type}_${block}_"}
+    },{
+        "when": {"type": "top"},
+        "apply": {"model": "myxrsidedblocks:block/${this.type}_${block}_top"}
+    },{
+        "when": {"type": "double"},
+        "apply": [
+            {"model": "myxrsidedblocks:block/${this.type}_${block}_"},
+            {"model": "myxrsidedblocks:block/${this.type}_${block}_top"}
+        ]
+    }]
+}`)
+    }
+
+    static type = 'slab';
+
+    static argNames = ['top','side','bottom'];
+
+    static ops = ['','top'];
 
 }
 
 const BLOCK_TYPES = {
     sided: SidedType,
     triple: TripleType,
-    winedge: WindowEdgeType
+    winedge: WindowEdgeType,
+    slab: SlabType,
 };
 
 function joinResourcePath(ns,...path){
@@ -2132,15 +2166,16 @@ function toCamel(block){
 }
 
 function blockItemReg(block,type){
-    return `public static final RegistryObject<BlockItem> ${block.toUpperCase()} = ITEMS.register("${type}_${block}", ()->new BlockItem(InitBlocks.${block.toUpperCase()}.get(),new Item.Properties().group(SidedBlocks.ITEM_GROUP)));`
+    return `public static final RegistryObject<BlockItem> ${(type+'_'+block).toUpperCase()} = ITEMS.register("${type}_${block}", ()->new BlockItem(InitBlocks.${(type+'_'+block).toUpperCase()}.get(),new Item.Properties().group(SidedBlocks.ITEM_GROUP)));`
 }
 
 function blockReg(block,type){
-    return `public static final RegistryObject<Block> ${block.toUpperCase()} = BLOCKS.register("${type}_${block}", ${toCamel(type+'_'+block)}::new);`
+    return `public static final RegistryObject<Block> ${(type+'_'+block).toUpperCase()} = BLOCKS.register("${type}_${block}", ${toCamel(type+'_'+block)}::new);`
 }
 
 const fs=require('fs');
 const path=require('path');
+const readline = require('readline').createInterface(process.stdin,process.stdout);
 
 const PACKAGE_PATH = path.join('src','main','java','de','myxrcrs','sidedblocks');
 const RESOURCE_PATH = path.join('src','main','resources','assets','myxrsidedblocks');
@@ -2173,8 +2208,62 @@ function remove(blockType,...args){
 
 let blockList = JSON.parse(fs.readFileSync('blocklist.json'));
 
+let translations = {
+    en_us: JSON.parse(fs.readFileSync(path.join(RESOURCE_PATH,'lang','en_us.json'))),
+    zh_cn: JSON.parse(fs.readFileSync(path.join(RESOURCE_PATH,'lang','zh_cn.json'))),
+}
+
+let defaultTranslations = {
+    en_us: JSON.parse(fs.readFileSync('en_us.json')),
+    zh_cn: JSON.parse(fs.readFileSync('zh_cn.json')),
+}
+
+let translationQueries = [];
+
+async function applyTranslationQueries(){
+    for(let lang of Object.keys(translations)){
+        for(let t of translationQueries){
+            let str = [t.type];
+            for(let arg of t.args){
+                str.push(await askTranslation(arg,lang));
+            }
+            translations[lang][`block.myxrsidedblocks.${t.type}_${combineName(...t.args)}`] = str.join(' ');
+        }
+    }
+    
+}
+
+let cache = {};
+
+function askTranslation(name,lang){
+    return new Promise((resolve,reject)=>{
+        if(defaultTranslations[lang][`block.minecraft.${name}`]){
+            resolve(defaultTranslations[lang][`block.minecraft.${name}`]);
+        }else if(cache[name]&&cache[name][lang]){
+            resolve(cache[name][lang]);
+        }else{
+            readline.question(`PROMPT-translation ${lang} ${name}\n`,(answer)=>{
+                if(!cache[name])cache[name]={};
+                if(!cache[name][lang])cache[name][lang]=answer;
+                resolve(answer);
+            });
+        }
+    });
+}
+
+function removeTranslation(type,...args){
+    for(let lang of Object.keys(translations)){
+        delete translations[lang][`block.myxrsidedblocks.${type}_${combineName(...args)}`];
+    }
+}
+
 function exitSave(code){
-    if(code==0)fs.writeFileSync('blocklist.json',JSON.stringify(blockList,undefined,2));
+    if(code==0){
+        fs.writeFileSync('blocklist.json',JSON.stringify(blockList,undefined,2));
+        for(let lang of Object.keys(translations)){
+            fs.writeFileSync(path.join(RESOURCE_PATH,'lang',`${lang}.json`),JSON.stringify(translations[lang],undefined,2));
+        }
+    }
     process.exit(code);
 }
 
@@ -2239,11 +2328,16 @@ const commands = {
             let Type = BLOCK_TYPES[v.type];
             if(!Type)console.warn(`WARN-unrecognized-type '${v.type}'.`);
             remove(Type,...blockToArgs(Type,v));
+            removeTranslation(v.type,...blockToArgs(Type,v));
         });
         blockList.blocks.forEach((v)=>{
             let Type = BLOCK_TYPES[v.type];
             if(!Type)console.warn(`WARN-unrecognized-type '${v.type}'.`);
             generate(Type,...blockToArgs(Type,v));
+            translationQueries.push({
+                type: v.type,
+                args: blockToArgs(Type,v),
+            });
             blockRegList.push(blockReg(combineName(...blockToArgs(Type,v)),v.type));
             itemRegList.push(blockItemReg(combineName(...blockToArgs(Type,v)),v.type));
             //TODO
@@ -2279,7 +2373,9 @@ public class InitItems {
 }`
         );
         blockList.removed = [];
-        exitSave(0);
+        applyTranslationQueries().then(()=>{
+            exitSave(0);
+        });
     },
     'ls':(type)=>{
         blockList.blocks.forEach((v)=>{

@@ -1,0 +1,21 @@
+{
+  "block.myxrsidedblocks.sided_bricks_oak_planks": "sided 砖块 橡木木板",
+  "block.myxrsidedblocks.sided_bricks_polished_andesite": "sided 砖块 磨制安山岩",
+  "block.myxrsidedblocks.sided_bricks_white_concrete": "sided 砖块 白色混凝土",
+  "block.myxrsidedblocks.sided_light_gray_concrete_white_concrete": "sided 淡灰色混凝土 白色混凝土",
+  "block.myxrsidedblocks.sided_classroom_concrete_polished_andesite": "sided 教室混凝土 磨制安山岩",
+  "block.myxrsidedblocks.sided_oak_planks_polished_andesite": "sided 橡木木板 磨制安山岩",
+  "block.myxrsidedblocks.sided_polished_andesite_white_concrete": "sided 磨制安山岩 白色混凝土",
+  "block.myxrsidedblocks.sided_sandstone_top_white_concrete": "sided 砂岩 白色混凝土",
+  "block.myxrsidedblocks.sided_stone_bricks_classroom_concrete": "sided 石砖 教室混凝土",
+  "block.myxrsidedblocks.sided_stone_bricks_white_concrete": "sided 石砖 白色混凝土",
+  "block.myxrsidedblocks.sided_stripped_birch_log_bricks": "sided 去皮白桦原木 砖块",
+  "block.myxrsidedblocks.sided_stripped_dark_oak_log_bricks": "sided 去皮深色橡木原木 砖块",
+  "block.myxrsidedblocks.sided_white_concrete_polished_andesite": "sided 白色混凝土 磨制安山岩",
+  "block.myxrsidedblocks.sided_white_concrete_stripped_dark_oak_log": "sided 白色混凝土 去皮深色橡木原木",
+  "block.myxrsidedblocks.triple_classroom_concrete_polished_andesite_polished_andesite_polished_granite": "triple 教室混凝土 磨制安山岩 磨制安山岩 磨制花岗岩",
+  "block.myxrsidedblocks.triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log": "triple 去皮白桦原木 砖块 白色混凝土 去皮深色橡木原木",
+  "block.myxrsidedblocks.triple_stripped_oak_log_bricks_white_concrete_sandstone_top": "triple 去皮橡木原木 砖块 白色混凝土 砂岩",
+  "block.myxrsidedblocks.winedge_bricks_polished_andesite_polished_andesite": "winedge 砖块 磨制安山岩 磨制安山岩",
+  "block.myxrsidedblocks.slab_polished_andesite_white_concrete_white_concrete": "slab 磨制安山岩 白色混凝土 白色混凝土"
+}
