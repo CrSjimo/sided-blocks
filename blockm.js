@@ -2185,13 +2185,17 @@ function combineName(...args){
 }
 
 function generate(blockType,...args){
-    let type = blockType.type;
-    fs.writeFileSync(path.join(RESOURCE_PATH,'blockstates',`${type}_${combineName(...args)}.json`),blockType.blockStateFile(combineName(...args)));
-    for(let op of blockType.ops){
-        fs.writeFileSync(path.join(RESOURCE_PATH,'models/block/',`${type}_${combineName(...args)}_${op}.json`),blockType.modelFile(...args,op));
+    try{
+        let type = blockType.type;
+        fs.writeFileSync(path.join(RESOURCE_PATH,'blockstates',`${type}_${combineName(...args)}.json`),blockType.blockStateFile(combineName(...args)));
+        for(let op of blockType.ops){
+            fs.writeFileSync(path.join(RESOURCE_PATH,'models/block/',`${type}_${combineName(...args)}_${op}.json`),blockType.modelFile(...args,op));
+        }
+        fs.writeFileSync(path.join(RESOURCE_PATH,'models','item',`${type}_${combineName(...args)}.json`),blockType.itemModelFile(...args));
+        fs.writeFileSync(path.join(PACKAGE_PATH,'blocks',`${toCamel(type+'_'+combineName(...args))}.java`),blockType.classFile(combineName(...args)));
+    }catch(e){
+        console.warn(`\u001b[33mWARN-filesystem-errno\u001b[0m ${e.message}`);
     }
-    fs.writeFileSync(path.join(RESOURCE_PATH,'models','item',`${type}_${combineName(...args)}.json`),blockType.itemModelFile(...args));
-    fs.writeFileSync(path.join(PACKAGE_PATH,'blocks',`${toCamel(type+'_'+combineName(...args))}.java`),blockType.classFile(combineName(...args)));
 }
 
 function remove(blockType,...args){
@@ -2301,16 +2305,28 @@ const commands = {
 
     'add':(type,...args)=>{
         let Type = BLOCK_TYPES[type];
-        if(!Type)exitSave(1);
-        if(!checkArgs(Type,args))exitSave(1);
+        if(!Type){
+            console.warn(`\u001b[31mERROR-unrecognized-type\u001b[0m '${type}'.`);
+            exitSave(1);
+        }
+        if(!checkArgs(Type,args)){
+            console.warn(`\u001b[31mERROR-invalid-args\u001b[0m '${type} ${args.join(' ')}'.`);
+            exitSave(1);
+        }
         blockList.blocks.push(argsToBlock(Type,args));
         exitSave(0);
     },
 
     'remove':(type,...args)=>{
         let Type = BLOCK_TYPES[type];
-        if(!Type)exitSave(1);
-        if(!checkArgs(Type,args))exitSave(1);
+        if(!Type){
+            console.warn(`\u001b[31mERROR-unrecognized-type\u001b[0m '${type}'.`);
+            exitSave(1);
+        }
+        if(!checkArgs(Type,args)){
+            console.warn(`\u001b[31mERROR-invalid-args\u001b[0m '${type} ${args.join(' ')}'.`);
+            exitSave(1);
+        }
         blockList.blocks.forEach((v,i,arr)=>{
             if(v.type==type && compareArgsWithBlock(Type,args,v)){
                 blockList.removed.push({...v});
@@ -2318,6 +2334,7 @@ const commands = {
                 exitSave(0);
             }
         });
+        console.warn(`\u001b[31mERROR-block-not-exist\u001b[0m '${type} ${args.join(' ')}'.`);
         exitSave(1);
     },
 
@@ -2326,13 +2343,13 @@ const commands = {
         let blockRegList=[];
         blockList.removed.forEach((v)=>{
             let Type = BLOCK_TYPES[v.type];
-            if(!Type)console.warn(`WARN-unrecognized-type '${v.type}'.`);
+            if(!Type)console.warn(`\u001b[33mWARN-unrecognized-type\u001b[0m '${v.type}'.`);
             remove(Type,...blockToArgs(Type,v));
             removeTranslation(v.type,...blockToArgs(Type,v));
         });
         blockList.blocks.forEach((v)=>{
             let Type = BLOCK_TYPES[v.type];
-            if(!Type)console.warn(`WARN-unrecognized-type '${v.type}'.`);
+            if(!Type)console.warn(`\u001b[33mWARN-unrecognized-type\u001b[0m '${v.type}'.`);
             generate(Type,...blockToArgs(Type,v));
             translationQueries.push({
                 type: v.type,
@@ -2383,6 +2400,7 @@ public class InitItems {
                 console.table(v);
             }
         });
+        process.exit(0);
     },
     'sort':()=>{
         blockList.blocks.sort((a,b)=>{
@@ -2390,7 +2408,7 @@ public class InitItems {
             if(a.type==b.type){
                 let Type=BLOCK_TYPES[a.type];
                 if(!Type){
-                    console.warn(`WARN-unrecognized-type '${v.type}'.`);
+                    console.warn(`\u001b[33mWARN-unrecognized-type\u001b[0m '${v.type}'.`);
                     return 0;
                 }
                 for(let p of Type.argNames){
