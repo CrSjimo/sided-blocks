@@ -10,6 +10,7 @@ import net.minecraft.state.EnumProperty;
 import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
+import net.minecraft.util.Mirror;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 
@@ -135,5 +136,17 @@ public class WindowEdgeBlock extends HorizontalBlock {
         return this.getDefaultState()
             .with(HORIZONTAL_FACING, lookingDirection.getOpposite())
             .with(SIDE, side);
+    }
+
+    @Override
+    public BlockState rotate(BlockState state, net.minecraft.util.Rotation rot) {
+        return state.with(HORIZONTAL_FACING,rot.rotate(state.get(HORIZONTAL_FACING)));
+    }
+
+    @Override
+    public BlockState mirror(BlockState state, Mirror mirrorIn) {
+        return mirrorIn == Mirror.NONE ? state : state
+            .rotate(mirrorIn.toRotation(state.get(HORIZONTAL_FACING)))
+            .with(SIDE,state.get(V_CORNER) ? state.get(SIDE).mirror_corner() : state.get(SIDE).mirror());
     }
 }

@@ -23,4 +23,30 @@ public enum Side implements IStringSerializable {
     public String getName() {
         return this.name;
     }
+
+    public Side mirror_corner() {
+        switch(this){
+            case TOP:
+                return LEFT;
+            case LEFT:
+                return TOP;
+            case RIGHT:
+                return BOTTOM;
+            case BOTTOM:
+                return RIGHT;
+            default:
+                return this;
+        }
+    }
+
+    public Side mirror() {
+        switch(this){
+            case LEFT:
+                return RIGHT;
+            case RIGHT:
+                return LEFT;
+            default:
+                return this;
+        }
+    }
 }

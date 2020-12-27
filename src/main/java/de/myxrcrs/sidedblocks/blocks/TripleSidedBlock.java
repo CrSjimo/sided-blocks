@@ -10,6 +10,7 @@ import net.minecraft.state.EnumProperty;
 import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
+import net.minecraft.util.Mirror;
 
 public class TripleSidedBlock extends DirectionalBlock {
 
@@ -37,6 +38,22 @@ public class TripleSidedBlock extends DirectionalBlock {
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
         return this.getDefaultState().with(FACING,context.getNearestLookingDirection().getOpposite());
+    }
+
+    @Override
+    public BlockState rotate(BlockState state, net.minecraft.util.Rotation rot) {
+        if(state.get(FACING)!=Direction.UP && state.get(FACING)!=Direction.DOWN)
+            return state.with(FACING,rot.rotate(state.get(FACING)));
+        else{
+            return state
+                    .with(SIDE_ROTATION,Rotation.fromMinecraftRotation(rot.add(state.get(SIDE_ROTATION).toMinecraftRotation())))
+                    .with(UP_ROTATION,Rotation.fromMinecraftRotation(rot.add(state.get(UP_ROTATION).toMinecraftRotation())));
+        }
+    }
+
+    @Override
+    public BlockState mirror(BlockState state, Mirror mirrorIn) {
+        return mirrorIn == Mirror.NONE ? state : state.rotate(mirrorIn.toRotation(state.get(FACING)));
     }
 
 }
