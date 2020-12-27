@@ -11,6 +11,7 @@ public class InitBlocks {
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, SidedBlocks.MOD_ID);
     public static final RegistryObject<Block> SIDED_BRICKS_OAK_PLANKS = BLOCKS.register("sided_bricks_oak_planks", SidedBricksOakPlanks::new);
     public static final RegistryObject<Block> SIDED_BRICKS_POLISHED_ANDESITE = BLOCKS.register("sided_bricks_polished_andesite", SidedBricksPolishedAndesite::new);
+    public static final RegistryObject<Block> SIDED_BRICKS_QUARTZ_BLOCK = BLOCKS.register("sided_bricks_quartz_block", SidedBricksQuartzBlock::new);
     public static final RegistryObject<Block> SIDED_BRICKS_WHITE_CONCRETE = BLOCKS.register("sided_bricks_white_concrete", SidedBricksWhiteConcrete::new);
     public static final RegistryObject<Block> SIDED_LIGHT_GRAY_CONCRETE_WHITE_CONCRETE = BLOCKS.register("sided_light_gray_concrete_white_concrete", SidedLightGrayConcreteWhiteConcrete::new);
     public static final RegistryObject<Block> SIDED_CLASSROOM_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("sided_classroom_concrete_polished_andesite", SidedClassroomConcretePolishedAndesite::new);
@@ -24,8 +25,11 @@ public class InitBlocks {
     public static final RegistryObject<Block> SIDED_WHITE_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("sided_white_concrete_polished_andesite", SidedWhiteConcretePolishedAndesite::new);
     public static final RegistryObject<Block> SIDED_WHITE_CONCRETE_STRIPPED_DARK_OAK_LOG = BLOCKS.register("sided_white_concrete_stripped_dark_oak_log", SidedWhiteConcreteStrippedDarkOakLog::new);
     public static final RegistryObject<Block> TRIPLE_CLASSROOM_CONCRETE_POLISHED_ANDESITE_POLISHED_ANDESITE_POLISHED_GRANITE = BLOCKS.register("triple_classroom_concrete_polished_andesite_polished_andesite_polished_granite", TripleClassroomConcretePolishedAndesitePolishedAndesitePolishedGranite::new);
+    public static final RegistryObject<Block> TRIPLE_CLASSROOM_CONCRETE_POLISHED_ANDESITE_STRIPPED_DARK_OAK_LOG_STRIPPED_DARK_OAK_LOG = BLOCKS.register("triple_classroom_concrete_polished_andesite_stripped_dark_oak_log_stripped_dark_oak_log", TripleClassroomConcretePolishedAndesiteStrippedDarkOakLogStrippedDarkOakLog::new);
     public static final RegistryObject<Block> TRIPLE_STRIPPED_BIRCH_LOG_BRICKS_WHITE_CONCRETE_STRIPPED_DARK_OAK_LOG = BLOCKS.register("triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log", TripleStrippedBirchLogBricksWhiteConcreteStrippedDarkOakLog::new);
     public static final RegistryObject<Block> TRIPLE_STRIPPED_OAK_LOG_BRICKS_WHITE_CONCRETE_SANDSTONE_TOP = BLOCKS.register("triple_stripped_oak_log_bricks_white_concrete_sandstone_top", TripleStrippedOakLogBricksWhiteConcreteSandstoneTop::new);
+    public static final RegistryObject<Block> WINEDGE_BRICKS_CLASSROOM_CONCRETE_POLISHED_ANDESITE = BLOCKS.register("winedge_bricks_classroom_concrete_polished_andesite", WinedgeBricksClassroomConcretePolishedAndesite::new);
     public static final RegistryObject<Block> WINEDGE_BRICKS_POLISHED_ANDESITE_POLISHED_ANDESITE = BLOCKS.register("winedge_bricks_polished_andesite_polished_andesite", WinedgeBricksPolishedAndesitePolishedAndesite::new);
+    public static final RegistryObject<Block> WINEDGE_BRICKS_QUARTZ_BLOCK_QUARTZ_BLOCK = BLOCKS.register("winedge_bricks_quartz_block_quartz_block", WinedgeBricksQuartzBlockQuartzBlock::new);
     public static final RegistryObject<Block> SLAB_POLISHED_ANDESITE_WHITE_CONCRETE_WHITE_CONCRETE = BLOCKS.register("slab_polished_andesite_white_concrete_white_concrete", SlabPolishedAndesiteWhiteConcreteWhiteConcrete::new);
 }

@@ -17,5 +17,11 @@
   "block.myxrsidedblocks.triple_stripped_birch_log_bricks_white_concrete_stripped_dark_oak_log": "triple 去皮白桦原木 砖块 白色混凝土 去皮深色橡木原木",
   "block.myxrsidedblocks.triple_stripped_oak_log_bricks_white_concrete_sandstone_top": "triple 去皮橡木原木 砖块 白色混凝土 砂岩",
   "block.myxrsidedblocks.winedge_bricks_polished_andesite_polished_andesite": "winedge 砖块 磨制安山岩 磨制安山岩",
-  "block.myxrsidedblocks.slab_polished_andesite_white_concrete_white_concrete": "slab 磨制安山岩 白色混凝土 白色混凝土"
+  "block.myxrsidedblocks.slab_polished_andesite_white_concrete_white_concrete": "slab 磨制安山岩 白色混凝土 白色混凝土",
+  "block.myxrsidedblocks.myxrsidedblocks:classroom_concrete": "教室混凝土",
+  "block.minecraft.sandstone_top": "砂岩",
+  "block.myxrsidedblocks.winedge_bricks_classroom_concrete_polished_andesite": "winedge 砖块 教室混凝土 磨制安山岩",
+  "block.myxrsidedblocks.winedge_bricks_quartz_block_quartz_block": "winedge 砖块 石英块 石英块",
+  "block.myxrsidedblocks.triple_classroom_concrete_polished_andesite_stripped_dark_oak_log_stripped_dark_oak_log": "triple 教室混凝土 磨制安山岩 去皮深色橡木原木 去皮深色橡木原木",
+  "block.myxrsidedblocks.sided_bricks_quartz_block": "sided 砖块 石英块"
 }

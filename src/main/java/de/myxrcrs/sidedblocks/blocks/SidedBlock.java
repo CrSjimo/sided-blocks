@@ -8,6 +8,7 @@ import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
+import net.minecraft.util.Mirror;
 
 public class SidedBlock extends DirectionalBlock {
 
@@ -26,5 +27,15 @@ public class SidedBlock extends DirectionalBlock {
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
         return this.getDefaultState().with(FACING,context.getNearestLookingDirection().getOpposite());
+    }
+
+    @Override
+    public BlockState rotate(BlockState state, net.minecraft.util.Rotation rot) {
+        return state.with(FACING,rot.rotate(state.get(FACING)));
+    }
+
+    @Override
+    public BlockState mirror(BlockState state, Mirror mirrorIn) {
+        return mirrorIn == Mirror.NONE ? state : state.rotate(mirrorIn.toRotation(state.get(FACING)));
     }
 }

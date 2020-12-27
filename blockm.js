@@ -2241,14 +2241,17 @@ let cache = {};
 
 function askTranslation(name,lang){
     return new Promise((resolve,reject)=>{
-        if(defaultTranslations[lang][`block.minecraft.${name}`]){
-            resolve(defaultTranslations[lang][`block.minecraft.${name}`]);
+        if(defaultTranslations[lang][`block.${getNamespace(name)||'minecraft'}.${name}`]){
+            resolve(defaultTranslations[lang][`block.${getNamespace(name)||'minecraft'}.${name}`]);
+        }else if(translations[lang][`block.${getNamespace(name)||'minecraft'}.${name}`]){
+            resolve(translations[lang][`block.${getNamespace(name)||'minecraft'}.${name}`]);
         }else if(cache[name]&&cache[name][lang]){
             resolve(cache[name][lang]);
         }else{
             readline.question(`PROMPT-translation ${lang} ${name}\n`,(answer)=>{
                 if(!cache[name])cache[name]={};
                 if(!cache[name][lang])cache[name][lang]=answer;
+                translations[lang][`block.${getNamespace(name)||'minecraft'}.${name}`] = answer;
                 resolve(answer);
             });
         }
@@ -2394,11 +2397,16 @@ public class InitItems {
             exitSave(0);
         });
     },
-    'ls':(type)=>{
+    'ls':(...args)=>{
         blockList.blocks.forEach((v)=>{
-            if(!type||v.type==type){
-                console.table(v);
+            let flag = true;
+            for(let arg of args){
+                if(!Object.values(v).includes(arg)){
+                    flag = false;
+                }
             }
+            if(flag)console.table(v);
+            
         });
         process.exit(0);
     },

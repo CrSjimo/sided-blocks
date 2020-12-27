@@ -1,0 +1,9 @@
+{
+  "parent": "myxrsidedblocks:block/triple_sided_n90",
+  "textures": {
+    "side1": "myxrsidedblocks:block/classroom_concrete",
+    "side2": "block/polished_andesite",
+    "top1": "block/stripped_dark_oak_log",
+    "top2": "block/stripped_dark_oak_log"
+  }
+}

@@ -14,6 +14,11 @@
     {
       "type": "sided",
       "block1": "bricks",
+      "block2": "quartz_block"
+    },
+    {
+      "type": "sided",
+      "block1": "bricks",
       "block2": "white_concrete"
     },
     {
@@ -80,6 +85,13 @@
     },
     {
       "type": "triple",
+      "side1": "myxrsidedblocks:classroom_concrete",
+      "side2": "polished_andesite",
+      "top1": "stripped_dark_oak_log",
+      "top2": "stripped_dark_oak_log"
+    },
+    {
+      "type": "triple",
       "side1": "stripped_birch_log",
       "side2": "bricks",
       "top1": "white_concrete",
@@ -95,8 +107,20 @@
     {
       "type": "winedge",
       "cover": "bricks",
+      "side": "myxrsidedblocks:classroom_concrete",
+      "top": "polished_andesite"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
       "side": "polished_andesite",
       "top": "polished_andesite"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "quartz_block",
+      "top": "quartz_block"
     },
     {
       "type": "slab",
