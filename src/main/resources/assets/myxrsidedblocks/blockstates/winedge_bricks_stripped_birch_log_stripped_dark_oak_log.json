@@ -1,0 +1,267 @@
+{
+  "variants": {
+
+
+    "facing=north,side=top,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_top",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=top,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_top",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=top,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_top",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=top,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_top",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=left,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_left",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=left,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_left",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=left,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_left",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=left,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_left",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=bottom,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottom",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=bottom,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottom",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=bottom,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottom",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=bottom,hcorner=2,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottom",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=right,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_right",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=right,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_right",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=right,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_right",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=right,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_right",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=top,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topc",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=top,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topc",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=top,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topc",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=top,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topc",
+      "y": 180,
+      "uvlock": true
+    },
+
+    "facing=north,side=top,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topi",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=top,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topi",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=top,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topi",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=top,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topi",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=bottom,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomc",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=bottom,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomc",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=bottom,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomc",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=bottom,hcorner=3,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomc",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=bottom,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomi",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=bottom,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomi",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=bottom,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomi",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=bottom,hcorner=1,vcorner=false": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomi",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=top,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topv",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=top,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topv",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=top,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topv",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=top,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_topv",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=left,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_leftv",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=left,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_leftv",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=left,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_leftv",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=left,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_leftv",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=bottom,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomv",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=bottom,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomv",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=bottom,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomv",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=bottom,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_bottomv",
+      "y": 180,
+      "uvlock": true
+    },
+
+
+    "facing=north,side=right,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_rightv",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=east,side=right,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_rightv",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,side=right,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_rightv",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,side=right,vcorner=true": {
+      "model": "myxrsidedblocks:block/winedge_bricks_stripped_birch_log_stripped_dark_oak_log_rightv",
+      "y": 180,
+      "uvlock": true
+    }
+  }
+}

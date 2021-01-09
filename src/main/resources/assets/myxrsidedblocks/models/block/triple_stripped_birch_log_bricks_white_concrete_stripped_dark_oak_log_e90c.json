@@ -1,9 +1,0 @@
-{
-  "parent": "myxrsidedblocks:block/triple_sided_e90c",
-  "textures": {
-    "side1": "block/stripped_birch_log",
-    "side2": "block/bricks",
-    "top1": "block/white_concrete",
-    "top2": "block/stripped_dark_oak_log"
-  }
-}

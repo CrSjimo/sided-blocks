@@ -1,0 +1,7 @@
+{
+  "parent": "myxrsidedblocks:block/sided_1",
+  "textures": {
+    "main": "block/polished_andesite",
+    "side": "block/quartz_block_bottom"
+  }
+}

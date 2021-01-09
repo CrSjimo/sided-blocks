@@ -4,6 +4,11 @@
     {
       "type": "sided",
       "block1": "bricks",
+      "block2": "myxrsidedblocks:classroom_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "bricks",
       "block2": "oak_planks"
     },
     {
@@ -14,7 +19,7 @@
     {
       "type": "sided",
       "block1": "bricks",
-      "block2": "quartz_block"
+      "block2": "quartz_block_bottom"
     },
     {
       "type": "sided",
@@ -35,6 +40,11 @@
       "type": "sided",
       "block1": "oak_planks",
       "block2": "polished_andesite"
+    },
+    {
+      "type": "sided",
+      "block1": "polished_andesite",
+      "block2": "quartz_block_bottom"
     },
     {
       "type": "sided",
@@ -92,17 +102,17 @@
     },
     {
       "type": "triple",
-      "side1": "stripped_birch_log",
-      "side2": "bricks",
-      "top1": "white_concrete",
+      "side1": "white_concrete",
+      "side2": "polished_andesite",
+      "top1": "stripped_dark_oak_log",
       "top2": "stripped_dark_oak_log"
     },
     {
       "type": "triple",
-      "side1": "stripped_oak_log",
-      "side2": "bricks",
+      "side1": "white_concrete",
+      "side2": "polished_andesite",
       "top1": "white_concrete",
-      "top2": "sandstone_top"
+      "top2": "polished_andesite"
     },
     {
       "type": "winedge",
@@ -113,14 +123,62 @@
     {
       "type": "winedge",
       "cover": "bricks",
+      "side": "oak_planks",
+      "top": "stripped_oak_log"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
       "side": "polished_andesite",
       "top": "polished_andesite"
     },
     {
       "type": "winedge",
       "cover": "bricks",
-      "side": "quartz_block",
-      "top": "quartz_block"
+      "side": "quartz_block_bottom",
+      "top": "quartz_block_bottom"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "stripped_birch_log",
+      "top": "stripped_dark_oak_log"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "white_concrete",
+      "top": "polished_andesite"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "white_concrete",
+      "top": "sandstone_top"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "white_concrete",
+      "top": "stripped_oak_log"
+    },
+    {
+      "type": "winedge",
+      "cover": "stone_bricks",
+      "side": "myxrsidedblocks:classroom_concrete",
+      "top": "polished_andesite"
+    },
+    {
+      "type": "winedge",
+      "cover": "stone_bricks",
+      "side": "polished_andesite",
+      "top": "polished_andesite"
+    },
+    {
+      "type": "slab",
+      "top": "polished_andesite",
+      "side": "polished_andesite",
+      "bottom": "white_concrete"
     },
     {
       "type": "slab",

@@ -1,0 +1,8 @@
+{
+  "parent": "myxrsidedblocks:block/window_edge_bottomi",
+  "textures": {
+    "cover": "block/bricks",
+    "side": "block/white_concrete",
+    "top": "block/stripped_oak_log"
+  }
+}

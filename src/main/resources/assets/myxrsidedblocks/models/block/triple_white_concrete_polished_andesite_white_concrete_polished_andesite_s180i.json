@@ -1,0 +1,9 @@
+{
+  "parent": "myxrsidedblocks:block/triple_sided_s180i",
+  "textures": {
+    "side1": "block/white_concrete",
+    "side2": "block/polished_andesite",
+    "top1": "block/white_concrete",
+    "top2": "block/polished_andesite"
+  }
+}

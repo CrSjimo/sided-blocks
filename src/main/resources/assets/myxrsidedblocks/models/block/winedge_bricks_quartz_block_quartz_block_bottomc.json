@@ -1,8 +1,0 @@
-{
-  "parent": "myxrsidedblocks:block/window_edge_bottomc",
-  "textures": {
-    "cover": "block/bricks",
-    "side": "block/quartz_block",
-    "top": "block/quartz_block"
-  }
-}

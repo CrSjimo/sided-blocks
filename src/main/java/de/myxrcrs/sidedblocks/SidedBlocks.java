@@ -91,7 +91,7 @@ public class SidedBlocks
     public static final ItemGroup ITEM_GROUP = new ItemGroup("myxrsidedblocks") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(InitItems.TRIPLE_STRIPPED_BIRCH_LOG_BRICKS_WHITE_CONCRETE_STRIPPED_DARK_OAK_LOG.get());
+            return new ItemStack(InitItems.WINEDGE_BRICKS_CLASSROOM_CONCRETE_POLISHED_ANDESITE.get());
         }
     };
 }
