@@ -185,6 +185,18 @@
       "top": "polished_andesite",
       "side": "white_concrete",
       "bottom": "white_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "white_concrete",
+      "block2": "light_gray_concrete"
+    },
+    {
+      "type": "triple",
+      "side1": "polished_andesite",
+      "side2": "stone_bricks",
+      "top1": "polished_andesite",
+      "top2": "stone_bricks"
     }
   ]
 }

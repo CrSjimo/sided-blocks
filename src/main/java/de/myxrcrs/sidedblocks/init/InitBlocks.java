@@ -42,4 +42,6 @@ public class InitBlocks {
     public static final RegistryObject<Block> WINEDGE_STONE_BRICKS_POLISHED_ANDESITE_POLISHED_ANDESITE = BLOCKS.register("winedge_stone_bricks_polished_andesite_polished_andesite", WinedgeStoneBricksPolishedAndesitePolishedAndesite::new);
     public static final RegistryObject<Block> SLAB_POLISHED_ANDESITE_POLISHED_ANDESITE_WHITE_CONCRETE = BLOCKS.register("slab_polished_andesite_polished_andesite_white_concrete", SlabPolishedAndesitePolishedAndesiteWhiteConcrete::new);
     public static final RegistryObject<Block> SLAB_POLISHED_ANDESITE_WHITE_CONCRETE_WHITE_CONCRETE = BLOCKS.register("slab_polished_andesite_white_concrete_white_concrete", SlabPolishedAndesiteWhiteConcreteWhiteConcrete::new);
+    public static final RegistryObject<Block> SIDED_WHITE_CONCRETE_LIGHT_GRAY_CONCRETE = BLOCKS.register("sided_white_concrete_light_gray_concrete", SidedWhiteConcreteLightGrayConcrete::new);
+    public static final RegistryObject<Block> TRIPLE_POLISHED_ANDESITE_STONE_BRICKS_POLISHED_ANDESITE_STONE_BRICKS = BLOCKS.register("triple_polished_andesite_stone_bricks_polished_andesite_stone_bricks", TriplePolishedAndesiteStoneBricksPolishedAndesiteStoneBricks::new);
 }

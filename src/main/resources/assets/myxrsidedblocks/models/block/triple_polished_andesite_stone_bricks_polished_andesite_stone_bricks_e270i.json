@@ -1,0 +1,9 @@
+{
+  "parent": "myxrsidedblocks:block/triple_sided_e270i",
+  "textures": {
+    "side1": "block/polished_andesite",
+    "side2": "block/stone_bricks",
+    "top1": "block/polished_andesite",
+    "top2": "block/stone_bricks"
+  }
+}
