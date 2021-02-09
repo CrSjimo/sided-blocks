@@ -12,7 +12,7 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.vector.Vector3d;
 
 public class WindowEdgeBlock extends HorizontalBlock {
 
@@ -108,7 +108,7 @@ public class WindowEdgeBlock extends HorizontalBlock {
         Rel rel = Rel.getDirectionRel(lookingDirection, placementDirection);
         Side side;
         if(rel==Rel.ALONG||rel==Rel.OPPOSITE){
-            Vec3d vec = context.getHitVec();
+            Vector3d vec = context.getHitVec();
             BlockPos pos = context.getPos();
             if(lookingDirection == Direction.NORTH || lookingDirection == Direction.SOUTH){
                 rel = Rel.getHitRel(vec.getX()-pos.getX(), vec.getY()-pos.getY());

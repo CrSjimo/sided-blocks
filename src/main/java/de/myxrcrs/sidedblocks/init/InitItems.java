@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class InitItems {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, SidedBlocks.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SidedBlocks.MOD_ID);
     public static final RegistryObject<BlockItem> SIDED_BRICKS_CLASSROOM_CONCRETE = ITEMS.register("sided_bricks_classroom_concrete", ()->new BlockItem(InitBlocks.SIDED_BRICKS_CLASSROOM_CONCRETE.get(),new Item.Properties().group(SidedBlocks.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> SIDED_BRICKS_OAK_PLANKS = ITEMS.register("sided_bricks_oak_planks", ()->new BlockItem(InitBlocks.SIDED_BRICKS_OAK_PLANKS.get(),new Item.Properties().group(SidedBlocks.ITEM_GROUP)));
     public static final RegistryObject<BlockItem> SIDED_BRICKS_POLISHED_ANDESITE = ITEMS.register("sided_bricks_polished_andesite", ()->new BlockItem(InitBlocks.SIDED_BRICKS_POLISHED_ANDESITE.get(),new Item.Properties().group(SidedBlocks.ITEM_GROUP)));
