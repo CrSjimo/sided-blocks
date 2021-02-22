@@ -17,7 +17,7 @@
                 "cullface": "north"
             },
             "south": {
-                "texture": "#side",
+                "texture": "#cover",
                 "cullface": "south"
             },
             "up": {
@@ -63,7 +63,7 @@
                 "cullface": "down"
             },
             "south": {
-                "texture": "#side",
+                "texture": "#cover",
                 "cullface": "south"
             },
             "up": {
