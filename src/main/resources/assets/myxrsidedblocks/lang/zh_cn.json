@@ -37,5 +37,9 @@
   "block.myxrsidedblocks.sided_bricks_classroom_concrete": "sided 砖块 教室混凝土",
   "block.myxrsidedblocks.triple_white_concrete_polished_andesite_white_concrete_polished_andesite": "triple 白色混凝土 磨制安山岩 白色混凝土 磨制安山岩",
   "block.myxrsidedblocks.sided_white_concrete_light_gray_concrete": "sided 白色混凝土 淡灰色混凝土",
-  "block.myxrsidedblocks.triple_polished_andesite_stone_bricks_polished_andesite_stone_bricks": "triple 磨制安山岩 石砖 磨制安山岩 石砖"
+  "block.myxrsidedblocks.triple_polished_andesite_stone_bricks_polished_andesite_stone_bricks": "triple 磨制安山岩 石砖 磨制安山岩 石砖",
+  "block.myxrsidedblocks.myxrsidedblocks:corridor_ground": "走廊地面",
+  "block.myxrsidedblocks.sided_white_concrete_corridor_ground": "sided 白色混凝土 走廊地面",
+  "block.myxrsidedblocks.slab_corridor_ground_white_concrete_white_concrete": "slab 走廊地面 白色混凝土 白色混凝土",
+  "block.myxrsidedblocks.sided_white_concrete_oak_planks": "sided 白色混凝土 橡木木板"
 }

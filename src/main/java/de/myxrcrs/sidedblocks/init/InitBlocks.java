@@ -44,4 +44,7 @@ public class InitBlocks {
     public static final RegistryObject<Block> SLAB_POLISHED_ANDESITE_WHITE_CONCRETE_WHITE_CONCRETE = BLOCKS.register("slab_polished_andesite_white_concrete_white_concrete", SlabPolishedAndesiteWhiteConcreteWhiteConcrete::new);
     public static final RegistryObject<Block> SIDED_WHITE_CONCRETE_LIGHT_GRAY_CONCRETE = BLOCKS.register("sided_white_concrete_light_gray_concrete", SidedWhiteConcreteLightGrayConcrete::new);
     public static final RegistryObject<Block> TRIPLE_POLISHED_ANDESITE_STONE_BRICKS_POLISHED_ANDESITE_STONE_BRICKS = BLOCKS.register("triple_polished_andesite_stone_bricks_polished_andesite_stone_bricks", TriplePolishedAndesiteStoneBricksPolishedAndesiteStoneBricks::new);
+    public static final RegistryObject<Block> SIDED_WHITE_CONCRETE_CORRIDOR_GROUND = BLOCKS.register("sided_white_concrete_corridor_ground", SidedWhiteConcreteCorridorGround::new);
+    public static final RegistryObject<Block> SLAB_CORRIDOR_GROUND_WHITE_CONCRETE_WHITE_CONCRETE = BLOCKS.register("slab_corridor_ground_white_concrete_white_concrete", SlabCorridorGroundWhiteConcreteWhiteConcrete::new);
+    public static final RegistryObject<Block> SIDED_WHITE_CONCRETE_OAK_PLANKS = BLOCKS.register("sided_white_concrete_oak_planks", SidedWhiteConcreteOakPlanks::new);
 }

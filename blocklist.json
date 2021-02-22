@@ -197,6 +197,22 @@
       "side2": "stone_bricks",
       "top1": "polished_andesite",
       "top2": "stone_bricks"
+    },
+    {
+      "type": "sided",
+      "block1": "white_concrete",
+      "block2": "myxrsidedblocks:corridor_ground"
+    },
+    {
+      "type": "slab",
+      "top": "myxrsidedblocks:corridor_ground",
+      "side": "white_concrete",
+      "bottom": "white_concrete"
+    },
+    {
+      "type": "sided",
+      "block1": "white_concrete",
+      "block2": "oak_planks"
     }
   ]
 }

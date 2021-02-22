@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=north,twoside=false": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_1",
+      "uvlock": true
+    },
+    "facing=east,twoside=false": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_1",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,twoside=false": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_1",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,twoside=false": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_1",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=up,twoside=false": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_1",
+      "x": 270,
+      "uvlock": true
+    },
+    "facing=down,twoside=false": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_1",
+      "x": 90,
+      "uvlock": true
+    },
+    "facing=north,twoside=true": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_2",
+      "uvlock": true
+    },
+    "facing=east,twoside=true": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_2",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,twoside=true": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_2",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,twoside=true": {
+      "model": "myxrsidedblocks:block/sided_white_concrete_oak_planks_2",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

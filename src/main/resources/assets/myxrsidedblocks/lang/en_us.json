@@ -37,5 +37,9 @@
   "block.myxrsidedblocks.sided_bricks_classroom_concrete": "sided Bricks Classroom Concrete",
   "block.myxrsidedblocks.triple_white_concrete_polished_andesite_white_concrete_polished_andesite": "triple White Concrete Polished Andesite White Concrete Polished Andesite",
   "block.myxrsidedblocks.sided_white_concrete_light_gray_concrete": "sided White Concrete Light Gray Concrete",
-  "block.myxrsidedblocks.triple_polished_andesite_stone_bricks_polished_andesite_stone_bricks": "triple Polished Andesite Stone Bricks Polished Andesite Stone Bricks"
+  "block.myxrsidedblocks.triple_polished_andesite_stone_bricks_polished_andesite_stone_bricks": "triple Polished Andesite Stone Bricks Polished Andesite Stone Bricks",
+  "block.myxrsidedblocks.myxrsidedblocks:corridor_ground": "Corridor Ground",
+  "block.myxrsidedblocks.sided_white_concrete_corridor_ground": "sided White Concrete Corridor Ground",
+  "block.myxrsidedblocks.slab_corridor_ground_white_concrete_white_concrete": "slab Corridor Ground White Concrete White Concrete",
+  "block.myxrsidedblocks.sided_white_concrete_oak_planks": "sided White Concrete Oak Planks"
 }

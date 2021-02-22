@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "top": "myxrsidedblocks:block/corridor_ground",
+        "side": "block/white_concrete",
+        "bottom": "block/white_concrete"
+    }
+}
