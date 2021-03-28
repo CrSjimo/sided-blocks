@@ -213,6 +213,18 @@
       "type": "sided",
       "block1": "white_concrete",
       "block2": "oak_planks"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "stripped_dark_oak_log",
+      "top": "sandstone_top"
+    },
+    {
+      "type": "winedge",
+      "cover": "bricks",
+      "side": "stripped_oak_log",
+      "top": "sandstone_top"
     }
   ]
 }

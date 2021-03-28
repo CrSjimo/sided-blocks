@@ -41,5 +41,7 @@
   "block.myxrsidedblocks.myxrsidedblocks:corridor_ground": "Corridor Ground",
   "block.myxrsidedblocks.sided_white_concrete_corridor_ground": "sided White Concrete Corridor Ground",
   "block.myxrsidedblocks.slab_corridor_ground_white_concrete_white_concrete": "slab Corridor Ground White Concrete White Concrete",
-  "block.myxrsidedblocks.sided_white_concrete_oak_planks": "sided White Concrete Oak Planks"
+  "block.myxrsidedblocks.sided_white_concrete_oak_planks": "sided White Concrete Oak Planks",
+  "block.myxrsidedblocks.winedge_bricks_stripped_dark_oak_log_sandstone_top": "winedge Bricks Stripped Dark Oak Log Sandstone",
+  "block.myxrsidedblocks.winedge_bricks_stripped_oak_log_sandstone_top": "winedge Bricks Stripped Oak Log Sandstone"
 }

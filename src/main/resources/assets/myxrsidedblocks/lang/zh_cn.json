@@ -41,5 +41,7 @@
   "block.myxrsidedblocks.myxrsidedblocks:corridor_ground": "走廊地面",
   "block.myxrsidedblocks.sided_white_concrete_corridor_ground": "sided 白色混凝土 走廊地面",
   "block.myxrsidedblocks.slab_corridor_ground_white_concrete_white_concrete": "slab 走廊地面 白色混凝土 白色混凝土",
-  "block.myxrsidedblocks.sided_white_concrete_oak_planks": "sided 白色混凝土 橡木木板"
+  "block.myxrsidedblocks.sided_white_concrete_oak_planks": "sided 白色混凝土 橡木木板",
+  "block.myxrsidedblocks.winedge_bricks_stripped_dark_oak_log_sandstone_top": "winedge 砖块 去皮深色橡木原木 砂岩",
+  "block.myxrsidedblocks.winedge_bricks_stripped_oak_log_sandstone_top": "winedge 砖块 去皮橡木原木 砂岩"
 }
